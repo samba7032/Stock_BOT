@@ -2,5 +2,5 @@ python-telegram-bot==20.3
 yfinance==0.2.36
 pandas==2.0.3
 ta==0.10.2
-httpx==0.25.0
+httpx>=0.24.0,<1.0.0  # Flexible version range
 python-dotenv==1.0.0
